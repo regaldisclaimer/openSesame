@@ -11,6 +11,7 @@ console.log(query);
 var pars = query.split("&");
 for (var i=0; i<pars.length; i++) {
   urls.push(pars[i]);
+  window.open(pars[i], '_blank');
 }
 
 </script>
